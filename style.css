@@ -1,0 +1,39 @@
+a:link {color:#0000FF;}      /* unvisited link */
+a:visited {color:#0000FF;}  /* visited link */
+
+#content{
+	margin-left:80px;
+	margin-right:auto;
+	margin-top:30px;
+	width:900px;
+}
+
+#menu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#menu li{
+	display:inline;
+	float:left;
+	text-align:center;
+}
+
+#menu li a{
+	display:block;
+	width:60px;
+	text-decoration:none;
+}
+
+#menu li a:hover{
+	border:0 0 5px 0;
+	border-bottom:solid medium;
+	border-color:blue;
+	//color:white;
+	//background-color:blue;
+}
+
+.feed{
+	margin:20px 0px 0px 15px;
+}
